@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+
+
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    float: left;
+    margin-right: 15px;
+}
+
+ul li:hover{
+    color: #ffc107;
+}
+
+.line-h-90{
+    line-height: 90px;
+}
+
+
+.logo-web{
+    margin-top: 4px;
+    width: 110%;
+}
+
+ul{
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+
+.poppins-font{
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+
+.unbounded-font{
+    font-weight: bold;
+    font-family: 'Unbounded';
+}
+
+.background-header{
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */
+    url(https://zerohourparts.com/wp-content/uploads/person_welding.jpg);
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 47.2%; /* (img-height / img-width * container-width) */
+                /* (853 / 1280 * 100) */
+}
+
+.background-header-about{
+    background-image: url('https://tulsatech.edu/media/full-time/manufacturing/welding_fabricator_1920x720.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 41.47%; /* (img-height / img-width * container-width) */
+                /* (853 / 1280 * 100) */
+}
+
+.background-header-service{
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */
+    url(https://www.neit.edu/wp-content/uploads/2022/04/Welding-Certification-Guide.jpg);
+
+
+    /* background-image: url('https://www.neit.edu/wp-content/uploads/2022/04/Welding-Certification-Guide.jpg'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 41.9%; /* (img-height / img-width * container-width) */
+                /* (853 / 1280 * 100) */
+}
+
+.background-header-contact{
+    background-image: url('https://staffordonline.org/wp-content/uploads/2017/12/WEB17-POWER-MECH2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 41.47%; /* (img-height / img-width * container-width) */
+                /* (853 / 1280 * 100) */
+}
+
+.h-700{
+    height: 700px;
+}
+
+.header-menu{
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-content{
+    height: 100%;
+    right: 0;
+    top: 0;
+    left: 0;
+}
+.font-10{
+    font-size: 10px;
+}
+
+.hr-custom{
+    background: red;
+    height: 2px;
+    width: 56px;
+    margin-left: 0;
+    border-radius: 20%;
+}
+
+.hr-custom-2{
+    background: red;
+    height: 2px;
+    width: 56px;
+    border-radius: 20%;
+}
+
+.ball-picture{
+    z-index: -1;
+    left: -70px;
+    top: 40px;
+}
+
+.mt-200{
+    margin-top: 180px;
+}
+
+.mb-200{
+    margin-bottom: 150px;
+}
+
+.body-4{
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */
+    url(https://i.ytimg.com/vi/CoHVA7nr82A/maxresdefault.jpg);
+
+    /* background-image: url('https://i.ytimg.com/vi/CoHVA7nr82A/maxresdefault.jpg'); */
+
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30%;
+
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 51.48%;  */
+    /* (img-height / img-width * container-width) */
+                /* (853 / 1280 * 100) */
+
+}
+.top-0{
+    top: 0;
+} 
+
+.bottom-0{
+    bottom: 0;
+}
+
+.carousel-inner{
+    /* height: -webkit-fill-available;
+    display: flex;
+    align-items: center; */
+}
+
+.height100{
+    height: -webkit-fill-available;
+}
+
+.carousel-item{
+    height: inherit;
+}
+
+.footer-div{
+    background-color: #1D1D1B;
+    
+}
+
+.padding-footer{
+    padding: 20px 400px;
+}
+
+.newsletter{
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+
+.input-footer{
+    width: 50%;
+    height: 50px;
+    padding-left: 10px;
+}
+.asb{
+    position: absolute;
+    right: 0;
+}
+
+.z-1{
+    z-index: 1;
+}
+
+.ml-11{
+    margin-left: 11rem !important;
+}
+
+.img-body-2{
+    width: 100%;
+}
+
+.img-body-3{
+    width: 100%;
+}
+
+.img-about{
+    width: 100%;
+    height: 100%;
+}
+
+.company{
+    color: #636363;
+}
+
+.body-3-m-0{
+    margin: 0!important;
+}
+
+.main-contact-tittle{
+    color: #f1c50e !important;
+}
+
+.address-detail p{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.address-detail h4{
+    text-align: center;
+}
+
+.modal-dialog{
+    height: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 520px) {
+    /* For mobile phones: */
+    .address-detail{
+        margin-top: 15%!important;
+    }
+
+    .maps{
+        margin-top: 15%!important;
+    }
+
+    .header-title{
+        display: none!important;
+    }
+
+    .navbar-nav{
+        display: block!important;
+        margin-right: 0!important;
+        margin-top: 10%;
+    }
+    .navbar-brand{
+        margin-left: 0!important;
+    }
+
+    .body-4{
+        padding-top: 155%!important;
+    }
+
+    .text-body-4{
+        font-size: 16px!important;
+        margin: 30px 40px;
+    }
+    .padding-footer {
+        padding: 80px 0!important;
+    }
+
+    .d-inline-block-res{
+        display: inline-block!important;
+        margin: 15px 0;
+        font-size: 15px;
+    }
+
+    .font-13-mobile{
+        font-size: 13px;
+    }
+    .mt-50-mobile{
+        margin-top: 50px;
+    }
+
+    .form-margin{
+        margin: 15px 0 0 0!important;
+    }
+
+    .img-about-margin{
+        margin-top: 8%!important;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .navbar-collapse{
+        justify-content: end;
+        
+    }
+    .navbar-nav{
+        margin-right: 20%;
+    }
+    .navbar-brand{
+        margin-left: 20%;
+    }
+
+    .img-about-margin{
+        margin-top: 0;
+    }
+
+    /* .address-detail{
+        margin: 0!important;
+    }
+
+    .maps{
+        margin: 0!important;
+    } */
+}
+
+.bootstrap-filestyle input{
+    margin-right: 5%;
+}
